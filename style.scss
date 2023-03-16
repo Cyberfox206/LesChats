@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+$titrefont: 'Amatic SC', cursive;
+$textfont: 'Roboto', sans-serif;
+$color1: #565a5d;
+$color2: #fcfcfc;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 98vw;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: $color1;
+}
+
+header {
+    width: 50%;
+}
+
+#firstitre {
+    display: flex;
+    font-size: 4em;
+    color: $color2;
+    text-align: center;
+    flex-direction: column;
+    font-family: $titrefont;
+}
+
+#texetheader {
+    color: $color2;
+    font-family: $textfont;
+    line-height: 50px;
+    text-indent: 25px;
+}
+
+main {
+    width: 50%;
+}
+
+.titrechatarticle {
+    font-family: $titrefont;
+    font-size: 2.5em;
+    word-spacing: 25px;
+    color: $color2;
+}
+
+.texetchatarticle {
+    color: $color2;
+    font-family: $textfont;
+    line-height: 50px;
+    text-indent: 25px;
+    margin-bottom: 35px;
+}
