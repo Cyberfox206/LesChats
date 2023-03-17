@@ -14,6 +14,7 @@ body {
     width: 98vw;
     height: 98vh;
     display: flex;
+    // flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
     background-color: $color1;
@@ -30,6 +31,19 @@ header {
     text-align: center;
     flex-direction: column;
     font-family: $titrefont;
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+#firstitre::after {
+    height: 250px;
+    width: 500px;
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(asset/img/cat-god.jpg);
+    transform: translate(690px, -50px);
 }
 
 #texetheader {
@@ -56,4 +70,53 @@ main {
     line-height: 50px;
     text-indent: 25px;
     margin-bottom: 35px;
+}
+
+#sitation {
+    margin-top: 100px;
+    color: $color2;
+    text-align: center;
+    line-height: 50px;
+    text-indent: 25px;
+    font-family: $textfont;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#auteursitutation {
+    color: $color2;
+    text-align: right;
+    font-family: $textfont;
+    font-size: 25px;
+    margin-bottom: 150px;
+}
+
+footer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#edenschoolimg {
+    width: 120px;
+}
+
+#footerp {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: $textfont;
+    color: $color2;
+}
+
+#footersource {
+    font-family: $textfont;
+    color: $color2;
+    text-align: center;
+}
+
+#fbleucolor {
+    color: #5bc6c3;
 }
