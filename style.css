@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-$titrefont: 'Amatic SC', cursive;
-$textfont: 'Roboto', sans-serif;
-$color1: #565a5d;
-$color2: #fcfcfc;
+/* 'Amatic SC', cursive;
+'Roboto', sans-serif;
+#565a5d;
+#fcfcfc; */
 
 * {
     margin: 0;
@@ -14,10 +14,9 @@ body {
     width: 98vw;
     height: 98vh;
     display: flex;
-    // flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
-    background-color: $color1;
+    background-color: #565a5d;
 }
 
 header {
@@ -27,10 +26,10 @@ header {
 #firstitre {
     display: flex;
     font-size: 4em;
-    color: $color2;
+    color: #fcfcfc;
     text-align: center;
     flex-direction: column;
-    font-family: $titrefont;
+    font-family: 'Amatic SC', cursive;
     position: relative;
     margin-bottom: 30px;
     margin-top: 50px;
@@ -47,8 +46,8 @@ header {
 }
 
 #texetheader {
-    color: $color2;
-    font-family: $textfont;
+    color: #fcfcfc;
+    font-family: 'Roboto', sans-serif;
     line-height: 50px;
     text-indent: 25px;
 }
@@ -58,15 +57,15 @@ main {
 }
 
 .titrechatarticle {
-    font-family: $titrefont;
+    font-family: 'Amatic SC', cursive;
     font-size: 2.5em;
     word-spacing: 25px;
-    color: $color2;
+    color: #fcfcfc;
 }
 
 .texetchatarticle {
-    color: $color2;
-    font-family: $textfont;
+    color: #fcfcfc;
+    font-family: 'Roboto', sans-serif;
     line-height: 50px;
     text-indent: 25px;
     margin-bottom: 35px;
@@ -74,19 +73,19 @@ main {
 
 #sitation {
     margin-top: 100px;
-    color: $color2;
+    color: #fcfcfc;
     text-align: center;
     line-height: 50px;
     text-indent: 25px;
-    font-family: $textfont;
+    font-family: 'Roboto', sans-serif;
     font-size: 40px;
     margin-bottom: 30px;
 }
 
 #auteursitutation {
-    color: $color2;
+    color: #fcfcfc;
     text-align: right;
-    font-family: $textfont;
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
     margin-bottom: 150px;
 }
@@ -107,13 +106,13 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family: $textfont;
-    color: $color2;
+    font-family: 'Roboto', sans-serif;
+    color: #fcfcfc;
 }
 
 #footersource {
-    font-family: $textfont;
-    color: $color2;
+    font-family: 'Roboto', sans-serif;
+    color: #fcfcfc;
     text-align: center;
 }
 
